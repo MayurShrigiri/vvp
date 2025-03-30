@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard | Smart Campus Portal</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        /* Header */
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        /* Dashboard Container */
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .card {
+            background-color: white;
+            width: 300px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h2 {
+            color: #004080;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            text-decoration: none;
+            background-color: #004080;
+            color: white;
+            border-radius: 5px;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+
+        .card a:hover {
+            background-color: #002950;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #004080;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Student Dashboard</h1>
+        <p>Welcome back, Student! Manage your academics effortlessly.</p>
+    </header>
+
+    <!-- Dashboard Cards -->
+    <div class="dashboard">
+        <div class="card">
+            <h2>Students CGPA</h2>
+            <p>View your academic performance.</p>
+            <a href="index9.html">View Grades</a>
+        </div>
+        <div class="card">
+            <h2>Attendance</h2>
+            <p>Track your attendance records.</p>
+            <a href="index7.html">View Attendance</a>
+        </div>
+        <div class="card">
+            <h2>Assignments</h2>
+            <p>Check pending and submitted assignments.</p>
+            <a href="index8.html">View Assignments</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Smart Campus Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="x-icon" href="vlogo.jpg">
+    <title>Timetable | Smart Campus Portal</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.1em;
+        }
+
+        /* Timetable Container */
+        .timetable {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 10px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #004080;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table th,
+        table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #004080;
+            color: white;
+            font-size: 0.9em;
+        }
+
+        table td {
+            font-size: 0.9em;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            table th, table td {
+                font-size: 0.8em;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Weekly Timetable</h1>
+        <p>Plan your schedule effectively</p>
+    </header>
+
+    <!-- Timetable Section -->
+    <div class="timetable">
+        <h2>Class Timetable</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>10:00-11:00</th>
+                    <th>11:00-12:00</th>
+                    <th>12:00-1:00</th>
+                    <th>1:45-2:45</th>
+                    <th>2:45-3:30</th>
+                    <th>3:45-4:45</th>
+                    <th>4:45-5:30</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>EC</td>
+                    <td>EM</td>
+                    <td>EM-II</td>
+                    <td>EC practical</td>
+                    <td>EC practical</td>
+                    <td>PPS</td>
+                    <td>CS</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>EM</td>
+                    <td>EC</td>
+                    <td>EM-II</td>
+                    <td>EM practical</td>
+                    <td>EM practical</td>
+                    <td>EM-II</td>
+                    <td>CS</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>EC</td>
+                    <td>EM</td>
+                    <td>EM-II</td>
+                    <td>W/S practical</td>
+                    <td>W/S practical</td>
+                    <td>CS</td>
+                    <td>CS</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>EM</td>
+                    <td>PPS</td>
+                    <td>T&P</td>
+                    <td>CS practical</td>
+                    <td>CS practical</td>
+                    <td>EM-II</td>
+                    <td>CS</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>PPS</td>
+                    <td>EM</td>
+                    <td>EM-II</td>
+                    <td>PPS practical</td>
+                    <td>PPS practical</td>
+                    <td>YE (TH)</td>
+                    <td>YE (PR)</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>CS</td>
+                    <td>EC</td>
+                    <td>PPS</td>
+                    <td>W/S practical</td>
+                    <td>W/S practical</td>
+                    <td>Proctor</td>
+                    <td>Library Hours</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

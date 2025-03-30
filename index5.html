@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="x-icon" href="vlogo.jpg">
+    <title>Help Desk | Smart Campus Portal</title>
+    <style>
+        /* Embedded CSS for simplicity */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #004080;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003366;
+        }
+        .faq {
+            margin-top: 30px;
+        }
+        .faq h2 {
+            color: #004080;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Help Desk</h1>
+        <p>We're here to assist you with any queries or issues!</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Contact Us</h2>
+            <form id="helpForm">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="query">Your Query:</label>
+                    <textarea id="query" name="query" rows="5" placeholder="Enter your query here..." required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="faq">
+            <h2>FAQs</h2>
+            <ul>
+                <li><strong>Q: How do I reset my password?</strong><br>A: Use the "Forgot Password" option on the login page.</li>
+                <li><strong>Q: Where can I find my grades?</strong><br>A: Check your Student Dashboard under the "Grades" section.</li>
+                <li><strong>Q: Who can I contact for technical issues?</strong><br>A: Fill out the form above, and our team will respond shortly.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
